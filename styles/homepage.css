@@ -1,0 +1,602 @@
+/* -------HERO SLIDER---------- */
+main section:first-of-type {
+  margin: 0;
+}
+
+main section:first-of-type ul {
+  position: relative;
+  left: -100%;
+
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  transform: translateX(100%);
+}
+
+main section:first-of-type li {
+  position: relative;
+
+  min-width: 100vw;
+  min-height: 100vh;
+
+  scroll-snap-align: center;
+}
+
+main section:first-of-type li h2 {
+  position: absolute;
+  bottom: 9rem;
+  left: var(--video-text-card-align);
+
+  margin: 8px 0px 15px;
+
+  font-family: Everett;
+  font-weight: 100;
+  font-size: 2em;
+
+}
+
+main section:first-of-type li p:first-of-type {
+  position: absolute;
+  bottom: 12rem;
+  left: var(--video-text-card-align);
+
+  font-family: Everett;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+main section:first-of-type li p {
+  text-transform: uppercase;
+}
+
+main section:first-of-type li p:nth-of-type(2) {
+  position: absolute;
+  bottom: 7rem;
+  left: var(--video-text-card-align);
+
+  font-family: Everett;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+main section:first-of-type li p:nth-of-type(3) {
+  position: absolute;
+  bottom: 2.5em;
+  left: var(--video-slider-info-align);
+
+  font-family: Everett;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+main section:first-of-type li :is(h2, p) {
+  color: white;
+}
+
+/* backgrounds */
+
+main section:first-of-type li:first-of-type {
+  background-image: url("../images/Home/header-carrousel/mc20-notte-home-hero-mbl.jpg");
+  background-size: cover;
+}
+
+main section:first-of-type li:nth-of-type(2) {
+  background-image: url("../images/Home/header-carrousel/MAS_MCXtrema_Hero_Reel_Thumb.png");
+  background-position: center;
+  background-size: cover;
+}
+
+main section:first-of-type li:nth-of-type(3) {
+  background-image: url("../images/Home/header-carrousel/Home_mobile_PB.jpg");
+  background-position: center;
+  background-size: cover;
+  font-size: 1em;
+}
+
+main section:first-of-type li:nth-of-type(4) {
+  background-image: url("../images/Home/header-carrousel/hero-ultima-soa-v8-ultima-mbl.jpg");
+  background-size: cover;
+}
+
+main section:first-of-type li:nth-of-type(5) {
+  background-image: url("../images/Home/header-carrousel/header-slider-essentials.jpg");
+  background-size: cover;
+}
+main section:first-of-type li:nth-of-type(4) p:first-of-type {
+  bottom: 14rem;
+}
+
+main section:first-of-type li:nth-of-type(4) p:nth-of-type(2) {
+  bottom: 6rem;
+}
+
+main section:first-of-type img {
+  position: absolute;
+  bottom: 1em;
+  left: var(--video-slider-info-align);
+
+  width: 20%;
+  aspect-ratio: 3/1;
+}
+
+main section:first-of-type > ul::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+/* ---------------------------- */
+
+/* ------MODEL SELECTOR-------- */
+main section:nth-of-type(2) {
+  position: relative;
+
+  background-color: var(--white);
+  font-family: Everett, sans-serif;
+}
+
+main section:nth-of-type(2) > h2 {
+  position: absolute;
+  top: 1em;
+  left: 0;
+  right: 0;
+
+  text-align: center;
+  font-weight: 300;
+  font-size: 2.2em;
+}
+main section:nth-of-type(2) > h3{
+  position: absolute;
+  top: 1em;
+  left: 2rem;
+  right: 0;
+
+  font-size: 1.1em;
+  color: var(--yellow);
+}
+
+
+main section:nth-of-type(2) section h3{
+  font-weight: 400;
+  font-size: 2em;
+}
+
+main section:nth-of-type(2) > img {
+  max-width: 100%;
+  min-height: 29em;
+}
+
+main section:nth-of-type(2) ul {
+  position: relative;
+  bottom: 12rem;
+
+  overflow: auto;
+  display: flex;
+  padding-left: 25%;
+  padding-right: 25%;
+
+  list-style: none;
+
+  scroll-snap-type: x mandatory;
+}
+
+main section:nth-of-type(2) ul::-webkit-scrollbar {
+  display: none;
+}
+
+main section:nth-of-type(2) ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 100vw;
+
+  text-align: center;
+
+  scroll-snap-align: center;
+}
+
+
+main section:nth-of-type(2) ul li a {
+  text-decoration: none;
+  color: var(--white);
+  font-family: Everett, sans-serif;
+  font-size: 1.1em;
+}
+
+
+
+main section:nth-of-type(2) section {
+  position: relative;
+  bottom: 12rem;
+  left: 1em;
+  right: 1em;
+
+  color: black;
+}
+main section:nth-of-type(2) section a {
+  position: absolute;
+  left: 1em;
+  right: 3em;
+}
+
+
+main section:nth-of-type(2) section p {
+  font-family: Anko;
+  font-size: .8em;
+}
+
+/* ************** */
+/* FOLGORE */
+/* ************** */
+
+main section:nth-of-type(3) {
+  position: relative;
+  overflow: hidden;
+
+  height: 900px;
+  display: grid;
+  grid-template-columns: 15% auto 15%;
+  grid-template-rows: 1fr 5fr 2fr 3fr 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  font-family: Everett, sans-serif;
+
+  view-timeline-name: --video;
+}
+
+main section:nth-of-type(3) h2 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  
+  margin-left: .5em;
+  font-size: 3em;
+  font-weight: 300;
+  color: black;
+
+}
+
+main section:nth-of-type(3) h3 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+
+  color: black;
+}
+
+main section:nth-of-type(3) a {
+  width: 20px;
+  height: 10px;
+  margin: auto;
+
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+main section:nth-of-type(3) section {
+  position: relative;
+
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+
+
+main section:nth-of-type(3) section video {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 4rem;
+  clip-path: inset(0px 70px 0px 70px);
+
+  animation: linear framer both;
+  animation-timeline: --video;
+  animation-range: entry 0% contain 80%;
+}
+
+
+
+/* De world of Maserati */
+
+main section:nth-of-type(4) h2 {
+  position: relative;
+
+  margin-left: .25em;
+
+  font-family: Everett, sans-serif;
+  font-size: 3em;
+  font-weight: 400;
+  color: black;
+}
+
+main section:nth-of-type(4) #news-slider {
+  position: relative;
+
+  overflow: auto;
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  scroll-snap-type: x mandatory;
+}
+
+main section:nth-of-type(4) #news-slider li {
+  height: 100vh;
+  min-width: 100vw;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr 19fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr 7fr 1fr 2fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+
+  font-family: Everett, sans-serif;
+
+  scroll-snap-align: center;
+}
+
+main section:nth-of-type(4) #news-slider li h3 {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+
+  margin: 0;
+  padding: 0;
+
+  font-family: Everett, sans-serif;
+  font-size: 2.7em;
+  font-weight: 400;
+}
+
+main section:nth-of-type(4) #news-slider p:first-of-type {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  padding-top: 5em;
+
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+main section:nth-of-type(4) #news-slider li p:nth-of-type(2) {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  padding-top: 5em;
+
+  font-weight: 400;
+  font-size: 1em;
+}
+
+main section:nth-of-type(4) #news-slider li a {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  margin: auto;
+  padding: 18px 36px 18px 21px;
+
+  text-align: center;
+}
+
+main section:nth-of-type(4) #news-slider:first-of-type::-webkit-scrollbar {
+  display: none;
+}
+
+
+/* backgrounds */
+main section:nth-of-type(4) #news-slider li:first-of-type {
+  background-image: url("../images/Home/news-carrousel/mc20-notte-home-news-dsk.jpg");
+  background-size: 100em;
+  background-position: center;
+}
+
+main section:nth-of-type(4) #news-slider li:nth-of-type(2) {
+  background-image: url("../images/Home/news-carrousel/QP_anniversary.jpg");
+  background-size: 100em;
+  background-position: center;
+}
+
+main section:nth-of-type(4) #news-slider li:nth-of-type(3) {
+  background-image: url("../images/Home/news-carrousel/Hero_Image_Preview_Maserati_Tipo_Folgore.png");
+  background-size: 100em;
+  background-position: center;
+}
+
+main section:nth-of-type(4) #news-slider li:nth-of-type(4) {
+  background-image: url("../images/Home/news-carrousel/22729-maseratigt2debuttainpistaalpaulricarde_fanatecgt2europeanseries2023.jpg");
+  background-size: 100em;
+  background-position: center;
+}
+
+main section:nth-of-type(4) #news-slider li:nth-of-type(5) {
+  background-image: url("../images/Home/news-carrousel/00_Maximilian_Günther_and_Jehan_Daruvala.webp");
+  background-size: 90em;
+  background-position: right;
+}
+
+main section:nth-of-type(4) #news-slider li:nth-of-type(6) {
+  background-image: url("../images/Home/news-carrousel/JuanManuelFangiosvictory70yearsagoaboardaMaseratiattheItalianGrandPrix.jpg");
+  background-size: 70em;
+  background-position: center;
+}
+
+main section:nth-of-type(4) nav {
+  height: 2em;
+
+  background-color: black;
+}
+
+main section:nth-of-type(4) nav ul{
+  height: 5rem;
+  position: relative;
+  bottom: 5rem;
+
+  display: flex;
+  justify-content: space-around;
+  gap: .5em;
+
+  list-style: none
+}
+
+
+main section:nth-of-type(4) nav ul li a{
+  width: 14em;
+  height: 25%;
+
+  padding: .1em 1em;
+
+  border-radius: 2.5px;
+  background-color: var(--yellow);
+
+  cursor: pointer;
+
+  text-align: center;
+  text-decoration: none;
+  color: var(--button-secondary);
+  font-family: Everett, sans-serif;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+main section:nth-of-type(4) nav ul li a:hover{
+  background-color: var(--button-secondary);
+
+  color: var(--light);
+}
+/* //////////// */
+/* shop section */
+/* //////////// */
+
+main section:nth-of-type(5) {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url("../images/Home/page-covers/store_vertical.jpg");
+  background-size: cover;
+  background-position: center;
+
+  text-align: center;
+}
+
+main section:nth-of-type(5) h2 {
+  width: 14em;
+
+  font-family: Everett, sans-serif;
+  font-weight: 100;
+  font-size: 2em;
+  line-height: 2em;
+}
+
+
+/* //////////// */
+/* contact nav */
+/* //////////// */
+
+main section:nth-of-type(6) {
+  background-color: black;
+}
+
+main section:nth-of-type(6) a {
+  color: var(--white);
+  font-family: Everett, sans-serif;
+  font-weight: 400;
+  font-size: 0.8em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+main section:nth-of-type(6) ul {
+  margin-left: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+
+  list-style: none;
+}
+
+main section:nth-of-type(6) ul li {
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+main section:nth-of-type(6) ul li span {
+  grid-area: 1 / 1 / 2 / 4;
+  margin: auto;
+
+}
+
+main section:nth-of-type(6) ul li a {
+  grid-area: 1 / 2 / 2 / 3;
+  margin-left: 1em;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+main section:nth-of-type(6) ul li:first-of-type a{
+  color: black;
+}
+
+main section:nth-of-type(6) ul li:nth-of-type(2) a{
+  text-transform:none;
+  font-size: .9em;
+}
+
+main section:nth-of-type(6) ul li img:nth-of-type(1) {
+  grid-area: 1 / 3 / 2 / 4;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+main section:nth-of-type(6) ul li img:nth-of-type(2) {
+  grid-area: 1 / 1 / 2 / 2;
+  margin: auto;
+}
+
+main section:nth-of-type(6) ul li:first-of-type {
+  margin-left: -1em;
+
+  background-color: var(--yellow);
+  border-radius: 25px 0px 0px 0px;
+
+  color: black;
+}
+
+main section:nth-of-type(6) ul li:nth-of-type(2) {
+  margin-bottom: 3em;
+}
+
+/* ///////// */
+/* keyframes */
+/* ///////// */
+
+@keyframes framer {
+  from {
+    scale: 4;
+  }
+  to {
+    scale: 1.2;
+  }
+}
