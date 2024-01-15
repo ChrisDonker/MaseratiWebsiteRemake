@@ -1,11 +1,11 @@
 var modelBGImagePaths = [
-    'images/Home/car-selector-backgrounds/GH_BG.jpg',
-    'images/Home/car-selector-backgrounds/GRECALE_BG.jpg',
-    'images/Home/car-selector-backgrounds/Hp-Model-Carousel-GT.png',
-    'images/Home/car-selector-backgrounds/LEV_BG.jpg',
-    'images/Home/car-selector-backgrounds/MC20_background_1920x1080.jpg',
-    'images/Home/car-selector-backgrounds/MC20_CIELO_BG.jpg',
-    'images/Home/car-selector-backgrounds/QP_BG.jpg'
+    '/images/Home/car-selector-backgrounds/GH_BG.jpg',
+    '/images/Home/car-selector-backgrounds/GRECALE_BG.jpg',
+    '/images/Home/car-selector-backgrounds/Hp-Model-Carousel-GT.png',
+    '/images/Home/car-selector-backgrounds/LEV_BG.jpg',
+    '/images/Home/car-selector-backgrounds/MC20_background_1920x1080.jpg',
+    '/images/Home/car-selector-backgrounds/MC20_CIELO_BG.jpg',
+    '/images/Home/car-selector-backgrounds/QP_BG.jpg'
     // Add more paths as needed
 ];
 
