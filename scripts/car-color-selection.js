@@ -41,15 +41,15 @@ var headerColor = {
 
 // 9 cars
 var carModelIMGPaths = {
-    Rosso: "/images/GranTurismo/color-select-models/gt-modena_rosso-granturismo_cal-black_imola-diamond.png",
-    Bianco: "/images/GranTurismo/color-select-models/gt-modena_bianco-pastello_cal-black_imola-diamond.png",
-    BluN: "/images/GranTurismo/color-select-models/gt-modena_blu-nobile_cal-black_imola-diamond.png",
-    BluE: "/images/GranTurismo/color-select-models/gt-modena_blu-emozione_cal-black_imola-diamond.png",
-    Corse: "/images/GranTurismo/color-select-models/gt-modena_giallo-corse_cal-black_imola-diamond.png",
-    Cangiante: "/images/GranTurismo/color-select-models/gt-modena_grigio-cangiante_cal-black_imola-diamond.png",
-    MaraMatt: "/images/GranTurismo/color-select-models/gt-modena_grigio-maratea-matte_cal-black_imola-diamond.png",
-    Mara: "/images/GranTurismo/color-select-models/gt-modena_grigio-maratea-met_cal-black_imola-diamond.png",
-    Nero: "/images/GranTurismo/color-select-models/gt-modena_nero-ribelle_cal-black_imola-diamond.png"
+    Rosso: "./images/GranTurismo/color-select-models/gt-modena_rosso-granturismo_cal-black_imola-diamond.png",
+    Bianco: "./images/GranTurismo/color-select-models/gt-modena_bianco-pastello_cal-black_imola-diamond.png",
+    BluN: "./images/GranTurismo/color-select-models/gt-modena_blu-nobile_cal-black_imola-diamond.png",
+    BluE: "./images/GranTurismo/color-select-models/gt-modena_blu-emozione_cal-black_imola-diamond.png",
+    Corse: "./images/GranTurismo/color-select-models/gt-modena_giallo-corse_cal-black_imola-diamond.png",
+    Cangiante: "./images/GranTurismo/color-select-models/gt-modena_grigio-cangiante_cal-black_imola-diamond.png",
+    MaraMatt: "./images/GranTurismo/color-select-models/gt-modena_grigio-maratea-matte_cal-black_imola-diamond.png",
+    Mara: "./images/GranTurismo/color-select-models/gt-modena_grigio-maratea-met_cal-black_imola-diamond.png",
+    Nero: "./images/GranTurismo/color-select-models/gt-modena_nero-ribelle_cal-black_imola-diamond.png"
 };
 
 var carColorNames = {
